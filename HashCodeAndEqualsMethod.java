@@ -22,6 +22,7 @@ public class HashCodeAndEqualsMethod {
 		System.out.println("HashMap Size: " + map.size());
 		System.out.println("Value for p1: " + map.get(p1));
 		System.out.println("Value for p3: " + map.get(p3));
+		System.out.println(p1.hashCode());
 
 
 
