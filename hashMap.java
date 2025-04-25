@@ -1,4 +1,6 @@
+import java.util.Arrays;
 import java.util.HashMap;
+import java.util.List;
 import java.util.Map;
 
 public class hashMap {
@@ -22,5 +24,13 @@ public class hashMap {
 		for(Map.Entry<Integer,String> entry: m1.entrySet()){
 			System.out.println(entry.getValue().toUpperCase());
 		}
+
+//        map.remove(31);
+		boolean res = m1.remove(31, "Nitin");
+		System.out.println("REMOVED ? :" + res);
+		System.out.println(m1);
+
+		List<Integer> list = Arrays.asList(2, 4, 32, 43, 4, 432);
+		list.contains(32);
    	}
 }
