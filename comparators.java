@@ -2,7 +2,7 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Comparator;
 import java.util.List;
-// this implementing Comparator interface
+// this implements Comparator interface
 //class StringLengthComprator implements Comparator<String>{
 //	@Override
 //	public int compare(String s1, String s2){

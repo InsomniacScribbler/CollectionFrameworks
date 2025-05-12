@@ -11,14 +11,14 @@ public class LinkedHashMapDemo {
 		System.out.println("Access Order True");
 		m1.get(1);
 		System.out.println(m1);
+		System.out.println();
 
-
-		m2.put(5, "joshi");
-		m2.put(12, "Sujit");
-		m2.put(23, "Nikhil");
+		m2.put(56, "joshi");
+		m2.put(1, "Sujit");
+		m2.put(2, "Nikhil");
 		System.out.println(m2);
-		System.out.println("Access Order True");
-		m1.get(12);
+		System.out.println("Access Order flase");
+		m2.get(12);
 		System.out.println(m2);
 	}
 }
