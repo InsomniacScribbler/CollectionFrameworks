@@ -32,7 +32,7 @@ public class LRUCache<K, V> extends LinkedHashMap<K, V> {
 		studentMap.put("Bob", 1);     // Bob is inserted
 		studentMap.put("Alice", 2);   // Alice is inserted
 		studentMap.put("Braun", 4);   // Braun is inserted
-
+		System.out.println(studentMap);
 		// Now cache is full (Bob, Alice, Braun)
 
 		studentMap.put("Bruno", 3);   // This insert will cause eldest (Bob) to be removed
