@@ -20,5 +20,12 @@ public class IdentityHashMapDemo {
 		map1.put(key1, 1); //key, 1
 		map1.put(key2,2); //key, 2
 		System.out.println(map1);
+		System.out.println("HashCodes of String objects");
+		System.out.println(key1.hashCode());
+		System.out.println(key2.hashCode());
+		System.out.println("Identity HashCOde of String objects");
+		System.out.println(System.identityHashCode(key1));
+		System.out.println(System.identityHashCode(key2));
+
 	}
 }
